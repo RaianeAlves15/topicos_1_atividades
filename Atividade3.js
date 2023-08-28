@@ -1,9 +1,9 @@
 /*Faça um script que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.),
 se digitar outro valor deve aparecer valor inválido.*/
-
-function Atvd3 ()
+//let num = 5;
+function Atvd3 (num)
 {console.log('Digite um número de 1 a 7 e saiba qual é o dia da semana correspondente à esse número')
-let num = 5;
+
 if  (num == 1)
 {
 console.log('Domingo');

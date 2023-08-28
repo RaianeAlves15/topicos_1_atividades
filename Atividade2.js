@@ -22,11 +22,11 @@ Salário Bruto acima de 2500 - desconto de 20% Imprima na tela as informações,
     Salário Liquido                                 : R$  935,00
     
     Impressão na tela conforme o exemplo acima.*/
-
-function Atvd2 ()
+    //let valorHora = 5;
+    //let horasTotal = 220;
+function Atvd2 (valorHora, horasTotal)
 {
-let valorHora = 5;
-let horasTotal = 220;
+
 
 let salarioBruto = (valorHora * horasTotal);
 

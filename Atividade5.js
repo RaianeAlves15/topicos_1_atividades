@@ -16,22 +16,22 @@ o total a compra.
 Escreva um script que peça o tipo e a quantidade de carne comprada pelo usuário e gere um cupom fiscal, contendo as informações
  da compra: tipo e quantidade de carne, preço total, tipo de pagamento, valor do desconto e valor a pagar.*/
 
- function Atvd5 ()
+ function Atvd5 (tipo, Kg,formaPagamento )
 {
  console.log('Escolha o tipo da carne');
  console.log('Digite 1 - para File Duplo')
  console.log('Digite 2 - para Alcatra')
  console.log('Digite 3 - para Picanha')
- let tipo = 3;
+ //let tipo = 3;
 
  console.log ('Quantos kilos?')
- let Kg = 4;
+ //let Kg = 4;
 
  console.log ('Forma de Pagamento')
  console.log('Digite 1 - para Cartão Assaí')
  console.log('Digite 2 - para Dinheiro')
  console.log('Digite 3 - para Pix')
-let formaPagamento = 3;
+//let formaPagamento = 3;
 
 let valor;
 let desc = 0;

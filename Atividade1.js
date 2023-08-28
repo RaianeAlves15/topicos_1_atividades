@@ -1,6 +1,7 @@
-function Atvd1 ()
+//let salario = 1000;
+function Atvd1 (salario)
 { 
-let salario = 1000;
+
 
 if (salario <= 280) 
 {
